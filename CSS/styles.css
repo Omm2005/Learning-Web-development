@@ -4,9 +4,7 @@ body{
     background-color: #EFFFFD;
     font-family: 'Merriweather', serif;
 }
-h1{
-    margin: 0;
-}
+
 h1 ,h2 {
     color: #66BFBF;
 }
@@ -27,10 +25,12 @@ div>h2{
 }
 .cloud{
     position: absolute;
+    left: 15%;
 }
-.left{
-    right: 25%;
-    top: 25px;
+.cloudleft{
+    position: absolute;
+    top: 5%;
+    right: 15%;
 }
 .middle-container {
     font-size: 18px;
